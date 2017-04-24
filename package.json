@@ -1,0 +1,19 @@
+{
+  "name": "hello-node",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --inspect=0.0.0.0:9229 server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrmarti/hello-node.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrmarti/hello-node/issues"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
